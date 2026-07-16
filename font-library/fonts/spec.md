@@ -2,23 +2,13 @@ The font library will consist both of local font files and of custom css files t
 
 The goal of these stylesheets is not mathematical precision, (which is virtually impossible) but optical consistency. So long as the fonts do not appear to be spaced vastly differently, they are considered successfully prepared. This means that each component will need to be designed with the "worst offender" in mind, and theoretically all other fonts should work.
 
-The files will be structured within each project as follows:
+The files will be structured within each project as follows: "assets/fonts/fonts.css font-name/font-name.woff2 font-name.css"
 
-assets
-|
-├──fonts
-    |
-    ├── font-name1
-    │   ├── fontname1.woff2 --> woff2 is the superior format due to better compression and faster loading times.*
-    │   └── fontname1.css --> this stylesheet will format the font against a standardised "ideal" that works for most/all components.
-    |
-    ├── font-name2
-    │   ├── fontname2.woff2
-    │   └── fontname2.css
-    |
-    └── fonts.css --> This file will import the fonts and their CSS files before being imported itself to main.css. This process is subject to change if/when more optimal solutions are proposed.
+-> fonts.css will import the font files and their corresponding stylesheets before being imported to main.css.
+-> .woff2 has been chosen* for its superior compression and performance benefits.
+-> The stylesheet will format the font against a standardised "ideal" that works for most/all components.
 
-    *Not all files have been converted to woff2 yet, but will be as and when they are worked on.
+*Not all files have been converted to woff2 yet, but will be as and when they are worked on.
 
 As of the beginning of this project, all files have been assigned the following styles as control variables:
 
