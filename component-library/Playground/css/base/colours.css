@@ -1,0 +1,17 @@
+/* This file can be swapped out for any colours.css file with matching variables and the website's colours will change perfectly. */
+:root {
+    --pri: hsl(204 100% 40%);
+    --pri-h: hsl(204 100% 50%);
+
+    --sec: hsl(174 100% 40%);
+    --sec-h: hsl(174 100% 50%);
+
+    --acc: hsl(324 100% 40%);
+    --acc-h: hsl(324 100% 50%);
+
+    --bgd: hsl(204 100% 5%);
+    --bgl: hsl(204 100% 95%);
+    
+    --uid: hsl(204 100% 15%);
+    --uil: hsl(204 100% 85%);
+}

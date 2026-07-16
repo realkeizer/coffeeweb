@@ -1,0 +1,136 @@
+:root { /* This list will become much larger and more comprehensive as the project continues - I merely needed a working set in small use-cases for now. */
+    --radxs: 8px;
+    --rads: 12px;
+    --radm: 16px;
+    --radl: 20px;
+    --radxl: 24px;
+
+    --btn-pad: 8px 12px;
+
+    --cont-wid: 1200px;
+    --shad: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.nomargin {
+    margin: 0 auto;
+}
+.overflow {
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+.flex {
+    display: flex;
+}
+.grid {
+    display: grid;
+}
+.row {
+    flex-direction: row;
+}
+.column {
+    flex-direction: column;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.nowrap {
+    flex-wrap: nowrap;
+}
+.shrink {
+    flex-shrink: 1;
+}
+.text-center {
+    text-align: center;
+}
+.justify-start {
+    justify-content: flex-start;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-end {
+    justify-content: flex-end;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-around {
+    justify-content: space-around;
+}
+.justify-evenly {
+    justify-content: space-evenly;
+}
+.items-start {
+    align-items: flex-start;
+}
+.items-center {
+    align-items: center;
+}
+.items-end {
+    align-items: flex-end;
+}
+.content-start {
+    align-content: flex-start;
+}
+.content-center {
+    align-content: center;
+}
+.content-end {
+    align-content: flex-end;
+}
+.grow {
+    flex-grow: 1;
+}
+.flex1 {
+    flex: 1;
+}
+.cgapxs {
+    gap: 0.5rem;
+}
+.cgaps {
+    gap: 1rem;
+}
+.cgapm {
+    gap: 2rem;
+}
+.cgapl {
+    gap: 3rem;
+}
+.cgapxl {
+    gap: 4rem;
+}
+.rgapxs {
+    row-gap: 0.5rem;
+}
+.rgaps {
+    row-gap: 1rem;
+}
+.rgapm {
+    row-gap: 2rem;
+}
+.rgapl {
+    row-gap: 3rem;
+}
+.rgapxl {
+    row-gap: 4rem;
+}
+.fwid {
+    width: 100%;
+}
+.fhei {
+    height: 100%;
+}
+.fvh {
+    height: 100vh;
+}
+.fvw {
+    width: 100vw;
+}
+.ml-auto {
+    margin-left: auto;
+}
+.mr-auto {
+    margin-right: auto;
+}
+.pad-left-right {
+    padding: 0px 1rem;
+}

@@ -1,0 +1,15 @@
+.src_sans {
+    font-family: "Source Sans 3", sans-serif;
+}
+.src_sans h1 {
+    font-size: 78px;
+}
+.src_sans h2 {
+    font-size: 42px;
+}
+.src_sans h3 {
+    font-size: 24px;
+}
+.src_sans p {
+    font-size: 18px;
+}

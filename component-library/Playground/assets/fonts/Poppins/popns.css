@@ -1,0 +1,16 @@
+/* Poppins */
+.popns {
+    font-family: "Poppins", sans-serif;
+}
+.popns h1 {
+    font-size: 78px;
+}
+.popns h2 {
+    font-size: 42px;
+}
+.popns h3 {
+    font-size: 24px;
+}
+.popns p {
+    font-size: 18px;
+}

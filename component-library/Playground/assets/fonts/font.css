@@ -1,0 +1,14 @@
+@import url("Inter/inter.css");
+@import url("Poppins/popns.css");
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    src: url("Poppins/Poppins-VariableFont_wght.woff2");
+    font-display: swap;
+}
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    src: url("Inter/Inter-VariableFont.woff2");
+    font-display: swap;
+}

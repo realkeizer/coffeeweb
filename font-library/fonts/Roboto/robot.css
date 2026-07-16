@@ -1,0 +1,15 @@
+.robot {
+    font-family: "Roboto", sans-serif;
+}
+.robot h1 {
+    font-size: 78px;
+}
+.robot h2 {
+    font-size: 42px;
+}
+.robot h3 {
+    font-size: 24px;
+}
+.robot p {
+    font-size: 18px;
+}

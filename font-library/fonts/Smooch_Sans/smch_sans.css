@@ -1,0 +1,16 @@
+/* Smooch Sans */
+.smch_sans {
+    font-family: "Smooch Sans", sans-serif;
+}
+.smch_sans h1 {
+    font-size: 78px;
+}
+.smch_sans h2 {
+    font-size: 42px;
+}
+.smch_sans h3 {
+    font-size: 24px;
+}
+.smch_sans p {
+    font-size: 18px;
+}

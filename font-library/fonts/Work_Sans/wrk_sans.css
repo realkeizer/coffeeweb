@@ -1,0 +1,15 @@
+.wrk_sans {
+    font-family :"Work Sans", sans-serif;
+}
+.wrk_sans h1 {
+    font-size: 78px;
+}
+.wrk_sans h2 {
+    font-size: 42px;
+}
+.wrk_sans h3 {
+    font-size: 24px;
+}
+.wrk_sans p {
+    font-size: 18px;
+}

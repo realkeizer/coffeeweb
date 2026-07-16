@@ -1,0 +1,15 @@
+.lib_bask {
+    font-family: "Libre Baskerville", sans-serif;
+}
+.lib_bask h1 {
+    font-size: 78px;
+}
+.lib_bask h2 {
+    font-size: 42px;
+}
+.lib_bask h3 {
+    font-size: 24px;
+}
+.lib_bask p {
+    font-size: 18px;
+}

@@ -1,0 +1,108 @@
+.box {
+    max-width: 240px;
+    max-height: 240px;
+    aspect-ratio: 1;
+    padding: 1rem;
+    border-radius: var(--radxl);
+}
+body {
+    padding-top: 90px;
+    transition: all 0.3s;
+}
+.b1 {
+    border: 2px solid var(--pri-h);
+    background-color: var(--pri);
+    transition: all 0.3s;
+}
+.b1:hover {
+    background-color: var(--pri-h);
+}
+.b2 {
+    border: 2px solid var(--sec-h);
+    background-color: var(--sec);
+    transition: all 0.3s;
+}
+.b2:hover {
+    background-color: var(--sec-h);
+}
+.b3:hover {
+    background-color: var(--acc-h);
+}
+.b3 {
+    border: 2px solid var(--acc-h);
+    background-color: var(--acc);
+    transition: all 0.3s;
+}
+.b4 {
+    border: 2px solid var(--uid);
+    background-color: var(--bgd);
+}
+.b5 {
+    border: 2px solid var(--uil);
+    background-color: var(--bgl);
+}
+.box {
+    cursor: pointer;
+}
+.contain {
+    width: var(--cont-wid);
+    height: auto;
+}
+.theme-toggle {
+    width: 60px;
+    height: 30px;
+
+    background: var(--uid);
+    border: 2px solid var(--uid);
+    border-radius: 999px;
+
+    padding: 3px;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+.theme-toggle-knob {
+    width: 22px;
+    height: 22px;
+
+    background: var(--bgd);
+    border-radius: 50%;
+
+    transition: all .3s ease;
+}
+[data-theme="dark"] .theme-toggle-knob {
+    transform: translateX(29px);
+}
+[data-theme="dark"] .b5 {
+    color: var(--bgd);
+}
+[data-theme="light"] .theme-toggle-knob {
+    transform: translateX(0px);
+}
+[data-theme="light"] .theme-toggle {
+    background: var(--bgl);
+    border: 2px solid var(--uil);
+}
+[data-theme="light"] body {
+    background-color: var(--bgl);
+    .section h1, p, theme-toggle {
+        color: var(--bgd);
+    }
+    .b1, .b2, .b3, .b5 {
+        color: var(--bgd);
+    }  
+}
+[data-theme="light"] .b4 {
+    color: var(--bgl);
+}
+@media (max-width: 768px) {
+    .box {
+        width: 100px;
+    }
+    .box h2 {
+        font-size: var(--fs-h3);
+    }
+}

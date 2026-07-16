@@ -1,0 +1,16 @@
+{
+  "id": "101",
+
+  "name": "Split Hero",
+
+  "category": "hero",
+
+  "description": "Hero section with left-aligned text and right-aligned imagery",
+
+  "tags": [
+    "minimal",
+    "image"
+  ],
+
+  "version": "1.0"
+}
