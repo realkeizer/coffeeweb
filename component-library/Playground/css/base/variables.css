@@ -4,14 +4,41 @@
     --radm: 16px;
     --radl: 20px;
     --radxl: 24px;
+    --radpill: 999px;
+
+    --padxs: 0.5rem;
+    --pads: 1rem;
+    --padm: 2rem;
+    --padl: 3rem;
+    --padxl: 4rem;
+
+    --bords: 0.5px solid;
+    --bordm: 1px solid;
+    --bordl: 2px solid;
 
     --btn-pad: 8px 12px;
+    --nav-hei: 90px; /* This is the value for padding-top for the body of the webpage. */
 
     --cont-wid: 1200px;
     --shad: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
-.bord {
-    border: 1px solid red;
+.bord-s {
+    border: var(--bords);
+}
+.bord-m {
+    border: var(--bordm);
+}
+.bord-l {
+    border: var(--bordl);
+}
+.bord-bot-s {
+    border-bottom: var(--bords);
+}
+.bord-bot-m {
+    border-bottom: var(--bordm);
+}
+.bord-bot-l {
+    border-bottom: var(--bordl);
 }
 .contain {
     max-width: 1200px;
@@ -45,8 +72,14 @@
 .shrink {
     flex-shrink: 1;
 }
+.text-left {
+    text-align: left;
+}
 .text-center {
     text-align: center;
+}
+.text-right {
+    text-align: right;
 }
 .justify-start {
     justify-content: flex-start;
@@ -122,6 +155,12 @@
 }
 .fwid {
     width: 100%;
+}
+.smooth {
+    transition: all 0.3s;
+}
+.fitwid {
+    width: fit-content;
 }
 .fhei {
     height: 100%;
