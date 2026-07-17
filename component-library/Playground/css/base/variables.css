@@ -10,6 +10,13 @@
     --cont-wid: 1200px;
     --shad: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
+.bord {
+    border: 1px solid red;
+}
+.contain {
+    max-width: 1200px;
+    height: auto;
+}
 .nomargin {
     margin: 0 auto;
 }

@@ -27,16 +27,7 @@ Example:
 
 Each component must use the following structure:
 
-components/
-
-/category/
-
-/componentID/
-
-├── component.html
-├── style.css
-├── manifest.json
-└── assets/
+"components/category/componentID/component.html style.css manifest.json assets/"
 
 Every component will have a manifest.json file to allow for easy browsing and conglomeration of components in the Python backend, as well as basic filtering in the UI.
 

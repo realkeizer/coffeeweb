@@ -1,6 +1,5 @@
-@import url("base/reset.css");
-@import url("base/variables.css");
-@import url("base/colours.css");
-@import url("base/theme.css");
-@import url("/assets/fonts/font.css");
-@import url("pages/colourtest.css")
+@import url("/component-library/Playground/css/base/reset.css");
+@import url("/component-library/Playground/css/base/variables.css");
+@import url("/component-library/Playground/css/base/colours.css");
+@import url("/component-library/Playground/css/base/theme.css");
+@import url("/component-library/Playground/assets/fonts/font.css");
