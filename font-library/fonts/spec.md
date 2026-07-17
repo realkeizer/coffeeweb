@@ -25,4 +25,5 @@ As of the beginning of this project, all files have been assigned the following 
 .font_name p {
     font-size: 18px;
 }
+
 For the obvious reason of static font-sizes being a big "no-no", this will be changed to clamp() variables once an ideal size has been determined. The bigger issue to solve is line-height and spacing, so that's priority number one.
