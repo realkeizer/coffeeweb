@@ -1,19 +1,35 @@
-/* Poppins */
-.popns {
+/* Body Styles */
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    src: url("Poppins/Poppins-VariableFont_wght.woff2");
+    font-display: swap;
+}
+.body {
+    font-family: "Poppins";
+}
+.body p {
+    font-size: 18px;
+}
+.body a {
+    font-size: 18px;
+}
+/* Header Styles */
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    src: url("Poppins/Poppins-VariableFont_wght.woff2");
+    font-display: swap;
+}
+.header {
     font-family: "Poppins", sans-serif;
 }
-.popns h1 {
+.header h1 {
     font-size: 78px;
 }
-.popns h2 {
+.header h2 {
     font-size: 42px;
 }
-.popns h3 {
+.header h3 {
     font-size: 24px;
-}
-.popns p {
-    font-size: 18px;
-}
-.popns a {
-    font-size: 18px;
 }

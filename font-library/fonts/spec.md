@@ -4,26 +4,50 @@ The goal of these stylesheets is not mathematical precision, (which is virtually
 
 The files will be structured within each project as follows: "assets/fonts/fonts.css font-name/font-name.woff2 font-name.css"
 
--> fonts.css will import the font files and their corresponding stylesheets before being imported to main.css. -> .woff2 has been chosen* for its superior compression and performance benefits. -> The stylesheet will format the font against a standardised "ideal" that works for most/all components.
+All projects will use generic class names like "header" and "body" in order to allow seamless imports of new fonts without manual changes to the HTML. Each of the fonts' specific stylesheets include separate styles for both for simplicity. For example, if you have chosen Poppins for your headers and Inter for your body, you will copy over the .header styles from popns.css and the body styles from inter.css. Doing this will automatically switch the fonts project-wide with ease.
+
+-> fonts.css will import the font files and contain their corresponding styles (based on header/body preference per font) before being imported to main.css. 
+-> .woff2 has been chosen* for its superior compression and performance benefits. 
+-> The stylesheet will format the font against a standardised "ideal" that works for most/all components.
 
 *Not all files have been converted to woff2 yet, but will be as and when they are worked on.
 
-As of the beginning of this project, all files have been assigned the following styles as control variables:
+As of the beginning of this project, all font-specific CSS files have been assigned the following styles as control variables:
 
-.font_name {
-    font-family: "font_name", sans-serif;
+/* Body Styles */
+@font-face {
+    font-family: "fontname";
+    font-style: normal;
+    src: url("fontname/fontfile.woff2");
+    font-display: swap;
 }
-.font_name h1 {
-    font-size: 78px;
+.body {
+    font-family: "fontname", sans-serif;
 }
-.font_name h2 {
-    font-size: 42px;
-}
-.font_name h3 {
-    font-size: 24px;
-}
-.font_name p {
+.body p {
     font-size: 18px;
 }
+.body a {
+    font-size: 18px;
+}
+/* Header Styles */
+@font-face {
+    font-family: "fontname";
+    font-style: normal;
+    src: url("fontname/fontfile.woff2");
+    font-display: swap;
+}
+.header {
+    font-family: "fontname", sans-serif;
+}
+.header h1 {
+    font-size: 78px;
+}
+.header h2 {
+    font-size: 42px;
+}
+.header h3 {
+    font-size: 24px;
+}
 
-For the obvious reason of static font-sizes being a big "no-no", this will be changed to clamp() variables once an ideal size has been determined. The bigger issue to solve is line-height and spacing, so that's priority number one.
+For the obvious reason of static font-sizes being a big "no-no", these will be changed to clamp() variables once an ideal size has been determined. The bigger issue to solve is line-height and spacing, so that's priority number one.
