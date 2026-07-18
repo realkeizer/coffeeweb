@@ -1,0 +1,54 @@
+.navpad {
+    padding-top: var(--nav-hei);
+}
+.varxs {
+    height: 100vh;
+}
+.vars {
+    height: 100vh;
+}
+.varm {
+    height: 100vh;
+}
+.varl {
+    height: 100vh;
+}
+.varxl {
+    height: 100vh;
+}
+.c {
+    height: 40vw;
+}
+.r {
+    border-color: var(--uid);
+}
+.xs-c {
+    column-gap: var(--padxs);
+}
+.xs-r {
+    row-gap: var(--padxs);
+}
+.s-c {
+    column-gap: var(--pads);
+}
+.s-r {
+    row-gap: var(--pads);
+}
+.m-c {
+    column-gap: var(--padm);
+}
+.m-r {
+    row-gap: var(--padm);
+}
+.l-c {
+    column-gap: var(--padl);
+}
+.l-r {
+    row-gap: var(--padl);
+}
+.xl-c {
+    column-gap: var(--padxl);
+}
+.xl-r {
+    row-gap: var(--padxl);
+}

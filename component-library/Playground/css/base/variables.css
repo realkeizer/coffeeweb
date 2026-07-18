@@ -1,9 +1,9 @@
 :root { /* This list will become much larger and more comprehensive as the project continues - I merely needed a working set in small use-cases for now. */
-    --radxs: 8px;
-    --rads: 12px;
+    --radxs: 6px;
+    --rads: 10px;
     --radm: 16px;
-    --radl: 20px;
-    --radxl: 24px;
+    --radl: 24px;
+    --radxl: 36px;
     --radpill: 999px;
 
     --padxs: 0.5rem;
@@ -21,6 +21,9 @@
 
     --cont-wid: 1200px;
     --shad: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.navpad {
+    padding-top: var(--nav-hei);
 }
 .bord-s {
     border: var(--bords);
