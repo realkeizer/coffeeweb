@@ -1,18 +1,35 @@
-.nunito {
+/* Body Styles */
+@font-face {
+    font-family: "Nunito";
+    font-style: normal;
+    src: url("/font-library/fonts/Nunito/Nunito-VariableFont_wght.ttf");
+    font-display: swap;
+}
+.body {
     font-family: "Nunito", sans-serif;
 }
-.nunito h1 {
+.body p {
+    font-size: 18px;
+}
+.body a {
+    font-size: 18px;
+}
+/* Header Styles */
+@font-face {
+    font-family: "Nunito";
+    font-style: normal;
+    src: url("/font-library/fonts/Nunito/Nunito-VariableFont_wght.ttf");
+    font-display: swap;
+}
+.header {
+    font-family: "Nunito", sans-serif;
+}
+.header h1 {
     font-size: 78px;
 }
-.nunito h2 {
+.header h2 {
     font-size: 42px;
 }
-.nunito h3 {
+.header h3 {
     font-size: 24px;
-}
-.nunito p {
-    font-size: 18px;
-}
-.nunito a {
-    font-size: 18px;
 }

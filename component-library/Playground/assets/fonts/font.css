@@ -2,7 +2,7 @@
 @font-face {
     font-family: "Inter";
     font-style: normal;
-    src: url("Inter/Inter-VariableFont.woff2");
+    src: url("/font-library/fonts/Inter/Inter-VariableFont_opsz,wght.woff2");
     font-display: swap;
 }
 .body {
@@ -18,7 +18,7 @@
 @font-face {
     font-family: "Poppins";
     font-style: normal;
-    src: url("Poppins/Poppins-VariableFont_wght.woff2");
+    src: url("/font-library/fonts/Poppins/Poppins-VariableFont_wght.woff2");
     font-display: swap;
 }
 .header {

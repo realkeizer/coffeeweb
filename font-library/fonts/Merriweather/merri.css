@@ -1,18 +1,35 @@
-.merri {
+/* Body Styles */
+@font-face {
+    font-family: "Merriweather";
+    font-style: normal;
+    src: url("/font-library/fonts/Merriweather/Merriweather-VariableFont_opsz,wdth,wght.ttf");
+    font-display: swap;
+}
+.body {
     font-family: "Merriweather", sans-serif;
 }
-.merri h1 {
+.body p {
+    font-size: 18px;
+}
+.body a {
+    font-size: 18px;
+}
+/* Header Styles */
+@font-face {
+    font-family: "Merriweather";
+    font-style: normal;
+    src: url("/font-library/fonts/Merriweather/Merriweather-VariableFont_opsz,wdth,wght.ttf");
+    font-display: swap;
+}
+.header {
+    font-family: "Merriweather", sans-serif;
+}
+.header h1 {
     font-size: 78px;
 }
-.merri h2 {
+.header h2 {
     font-size: 42px;
 }
-.merri h3 {
+.header h3 {
     font-size: 24px;
-}
-.merri p {
-    font-size: 18px;
-}
-.merri a {
-    font-size: 18px;
 }

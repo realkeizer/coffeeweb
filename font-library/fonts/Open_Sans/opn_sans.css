@@ -1,18 +1,35 @@
-.opn_sans {
+/* Body Styles */
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    src: url("/font-library/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf");
+    font-display: swap;
+}
+.body {
     font-family: "Open Sans", sans-serif;
 }
-.opn_sans h1 {
+.body p {
+    font-size: 18px;
+}
+.body a {
+    font-size: 18px;
+}
+/* Header Styles */
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    src: url("/font-library/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf");
+    font-display: swap;
+}
+.header {
+    font-family: "Open Sans", sans-serif;
+}
+.header h1 {
     font-size: 78px;
 }
-.opn_sans h2 {
+.header h2 {
     font-size: 42px;
 }
-.opn_sans h3 {
+.header h3 {
     font-size: 24px;
-}
-.opn_sans p {
-    font-size: 18px;
-}
-.opn_sans a {
-    font-size: 18px;
 }

@@ -1,18 +1,35 @@
-.mserrat {
+/* Body Styles */
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    src: url("/font-library/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+    font-display: swap;
+}
+.body {
     font-family: "Montserrat", sans-serif;
 }
-.mserrat h1 {
+.body p {
+    font-size: 18px;
+}
+.body a {
+    font-size: 18px;
+}
+/* Header Styles */
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    src: url("/font-library/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+    font-display: swap;
+}
+.header {
+    font-family: "Montserrat", sans-serif;
+}
+.header h1 {
     font-size: 78px;
 }
-.mserrat h2 {
+.header h2 {
     font-size: 42px;
 }
-.mserrat h3 {
+.header h3 {
     font-size: 24px;
-}
-.mserrat p {
-    font-size: 18px;
-}
-.mserrat a {
-    font-size: 18px;
 }

@@ -1,18 +1,35 @@
-.src_sans {
+/* Body Styles */
+@font-face {
+    font-family: "Source Sans 3";
+    font-style: normal;
+    src: url("/font-library/fonts/Source_Sans_3/SourceSans3-VariableFont_wght.ttf");
+    font-display: swap;
+}
+.body {
+    font-family: "Source Sans 3";
+}
+.body p {
+    font-size: 18px;
+}
+.body a {
+    font-size: 18px;
+}
+/* Header Styles */
+@font-face {
+    font-family: "Source Sans 3";
+    font-style: normal;
+    src: url("/font-library/fonts/Source_Sans_3/SourceSans3-VariableFont_wght.ttf");
+    font-display: swap;
+}
+.header {
     font-family: "Source Sans 3", sans-serif;
 }
-.src_sans h1 {
+.header h1 {
     font-size: 78px;
 }
-.src_sans h2 {
+.header h2 {
     font-size: 42px;
 }
-.src_sans h3 {
+.header h3 {
     font-size: 24px;
-}
-.src_sans p {
-    font-size: 18px;
-}
-.src_sans a {
-    font-size: 18px;
 }

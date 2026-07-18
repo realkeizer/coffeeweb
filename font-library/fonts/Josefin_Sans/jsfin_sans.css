@@ -1,18 +1,35 @@
-.jsfin_sans {
-    font-family : "Josefin Sans", sans-serif;
+/* Body Styles */
+@font-face {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    src: url("/font-library/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf");
+    font-display: swap;
 }
-.jsfin_sans h1 {
+.body {
+    font-family: "Josefin Sans", sans-serif;
+}
+.body p {
+    font-size: 18px;
+}
+.body a {
+    font-size: 18px;
+}
+/* Header Styles */
+@font-face {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    src: url("/font-library/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf");
+    font-display: swap;
+}
+.header {
+    font-family: "Josefin Sans", sans-serif;
+}
+.header h1 {
     font-size: 78px;
 }
-.jsfin_sans h2 {
+.header h2 {
     font-size: 42px;
 }
-.jsfin_sans h3 {
+.header h3 {
     font-size: 24px;
-}
-.jsfin_sans p {
-    font-size: 18px;
-}
-.jsfin_sans a {
-    font-size: 18px;
 }

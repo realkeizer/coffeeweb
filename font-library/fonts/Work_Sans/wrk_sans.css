@@ -1,18 +1,35 @@
-.wrk_sans {
-    font-family :"Work Sans", sans-serif;
+/* Body Styles */
+@font-face {
+    font-family: "Work Sans";
+    font-style: normal;
+    src: url("/font-library/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf");
+    font-display: swap;
 }
-.wrk_sans h1 {
+.body {
+    font-family: "Work Sans";
+}
+.body p {
+    font-size: 18px;
+}
+.body a {
+    font-size: 18px;
+}
+/* Header Styles */
+@font-face {
+    font-family: "Work Sans";
+    font-style: normal;
+    src: url("/font-library/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf");
+    font-display: swap;
+}
+.header {
+    font-family: "Work Sans", sans-serif;
+}
+.header h1 {
     font-size: 78px;
 }
-.wrk_sans h2 {
+.header h2 {
     font-size: 42px;
 }
-.wrk_sans h3 {
+.header h3 {
     font-size: 24px;
-}
-.wrk_sans p {
-    font-size: 18px;
-}
-.wrk_sans a {
-    font-size: 18px;
 }

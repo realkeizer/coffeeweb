@@ -1,18 +1,35 @@
-.rubik {
+/* Body Styles */
+@font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    src: url("/font-library/fonts/Rubik/Rubik-VariableFont_wght.ttf");
+    font-display: swap;
+}
+.body {
+    font-family: "Rubik";
+}
+.body p {
+    font-size: 18px;
+}
+.body a {
+    font-size: 18px;
+}
+/* Header Styles */
+@font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    src: url("/font-library/fonts/Rubik/Rubik-VariableFont_wght.ttf");
+    font-display: swap;
+}
+.header {
     font-family: "Rubik", sans-serif;
 }
-.rubik h1 {
+.header h1 {
     font-size: 78px;
 }
-.rubik h2 {
+.header h2 {
     font-size: 42px;
 }
-.rubik h3 {
+.header h3 {
     font-size: 24px;
-}
-.rubik p {
-    font-size: 18px;
-}
-.rubik a {
-    font-size: 18px;
 }

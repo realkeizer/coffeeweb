@@ -1,18 +1,35 @@
-.lib_bask {
+/* Body Styles */
+@font-face {
+    font-family: "Libre Baskerville";
+    font-style: normal;
+    src: url("/font-library/fonts/Libre_Baskerville/LibreBaskerville-VariableFont_wght.ttf");
+    font-display: swap;
+}
+.body {
     font-family: "Libre Baskerville", sans-serif;
 }
-.lib_bask h1 {
+.body p {
+    font-size: 18px;
+}
+.body a {
+    font-size: 18px;
+}
+/* Header Styles */
+@font-face {
+    font-family: "Libre Baskerville";
+    font-style: normal;
+    src: url("/font-library/fonts/Libre_Baskerville/LibreBaskerville-VariableFont_wght.ttf");
+    font-display: swap;
+}
+.header {
+    font-family: "Libre Baskerville", sans-serif;
+}
+.header h1 {
     font-size: 78px;
 }
-.lib_bask h2 {
+.header h2 {
     font-size: 42px;
 }
-.lib_bask h3 {
+.header h3 {
     font-size: 24px;
-}
-.lib_bask p {
-    font-size: 18px;
-}
-.lib_bask a {
-    font-size: 18px;
 }

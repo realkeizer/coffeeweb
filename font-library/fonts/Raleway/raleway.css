@@ -1,18 +1,35 @@
-.raleway {
+/* Body Styles */
+@font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    src: url("/font-library/fonts/Raleway/Raleway-VariableFont_wght.ttf");
+    font-display: swap;
+}
+.body {
+    font-family: "Raleway";
+}
+.body p {
+    font-size: 18px;
+}
+.body a {
+    font-size: 18px;
+}
+/* Header Styles */
+@font-face {
+    font-family: "Raleway";
+    font-style: normal;
+    src: url("/font-library/fonts/Raleway/Raleway-VariableFont_wght.ttf");
+    font-display: swap;
+}
+.header {
     font-family: "Raleway", sans-serif;
 }
-.raleway h1 {
+.header h1 {
     font-size: 78px;
 }
-.raleway h2 {
+.header h2 {
     font-size: 42px;
 }
-.raleway h3 {
+.header h3 {
     font-size: 24px;
-}
-.raleway p {
-    font-size: 18px;
-}
-.raleway a {
-    font-size: 18px;
 }
